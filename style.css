@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(23, 23, 23);
+    font-family: monospace;
+    color: white;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+}
+.choices{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    font-size: x-large;
+}
+.result{
+    text-align: center;
+    font-size: 40px;
+}
+.userInput{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+.userInput button{
+    font-size: 100px;
+    background-color: transparent;
+    border: none;
+}
+button:hover{
+    background-color: rgb(38, 37, 37);
+    border:1px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+}
