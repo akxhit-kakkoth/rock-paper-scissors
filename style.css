@@ -7,17 +7,35 @@ body{
     background-color: rgb(23, 23, 23);
     font-family: monospace;
     color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+.container{
+    background-color: rgb(122, 81, 160);
+    width: 75%;
+    border-radius: 20px;
 }
 h1{
     text-align: center;
     font-size: 50px;
     padding: 20px;
+    color: rgb(211, 255, 15);
 }
 .choices{
     display: flex;
     gap: 20px;
     justify-content: center;
     font-size: x-large;
+    padding: 30px;
+}
+.choices p{
+    font-size: 40px;
+    font-weight: bold;
+    background-color: rgb(129, 68, 241);
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
 }
 .result{
     text-align: center;
@@ -32,11 +50,34 @@ h1{
 .userInput button{
     font-size: 100px;
     background-color: transparent;
-    border: none;
+    border-radius: 20px;
+    border: 1px solid white;
 }
 button:hover{
-    background-color: rgb(38, 37, 37);
-    border:1px solid black;
-    border-radius: 20px;
+    background-color: rgb(138, 91, 201);
+    border:1px solid rgb(136, 1, 240);
     cursor: pointer;
+}
+.scoreBoard{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.scoreBoard p{
+    font-size: 30px;
+    font-weight: bold;
+}
+.scoreBoard div{
+    /* background-color: aquamarine; */
+    padding: 10px 10px 10px;
+    border-radius: 1350px;
+}
+.scoreBoard .green{
+    background-color: rgb(50, 183, 88);
+}
+.scoreBoard .blue{
+    background-color: rgb(61, 142, 168);
+}
+.scoreBoard .gray{
+    background-color: gray;
 }

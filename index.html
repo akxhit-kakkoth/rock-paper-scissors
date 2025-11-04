@@ -1,23 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>RPC</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
     <h1>ROCK PAPPER SCISSORS</h1>
+    <div class="scoreBoard">
+      <div class="green">
+        <p>Your Wins: <span id="user-score">0</span></p>
+      </div>
+      <div class="gray">
+        <p>Computer Wins: <span id="computer-score">0</span></p>
+      </div>
+      <div class="blue">
+        <p >Draws: <span id="draw-score">0</span></p>
+      </div>
+    </div>
     <div class="choices">
-        <P id="userChoice-para">User Choice:Rock</P>
-        <P id="computerChoice-para">Computer Choice:Paper</P>
+      <p id="userChoice-para">User Choice:Rock</p>
+      <p id="computerChoice-para">Computer Choice:Paper</p>
     </div>
     <p class="result" id="result-para">result: you lost</p>
     <div class="userInput">
-        <button onclick="playGame('rock')">🗿</button>
-        <button onclick="playGame('paper')">📄</button>
-        <button onclick="playGame('scissors')">✂️</button>
+      <button onclick="playGame('rock')">🗿</button>
+      <button onclick="playGame('paper')">📄</button>
+      <button onclick="playGame('scissors')">✂️</button>
+    </div>
     </div>
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
